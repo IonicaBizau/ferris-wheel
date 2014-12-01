@@ -125,7 +125,7 @@ namespace FerrisWheel
             bool started = false;
 
             // Is NOT empty or was not started yet
-            while (wheelIsEmpty(wheel) == false || started == false)
+            while (cPerson <= wheel.Length || wheelIsEmpty(wheel) == false || started == false)
             {
                 nextChair(c, wheel, pIds);
                 started = true;
