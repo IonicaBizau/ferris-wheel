@@ -1,6 +1,8 @@
 FerrisWheel
 ===========
 
+An application that simulates a ferris wheel.
+
 ## Question
 
 Having a ferris wheel with `n` chairs (from `1` to `n`), `p` persons come
