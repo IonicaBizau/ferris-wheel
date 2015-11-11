@@ -29,4 +29,4 @@ Last chair that was emptied: 1
 ```
 
 ## License
-This stuff is licensed with :heart: under [the MIT license](/LICENSE).
+This stuff is licensed with :heart: under [The KINDLY license](/LICENSE).
