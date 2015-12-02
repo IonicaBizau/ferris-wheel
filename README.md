@@ -1,5 +1,4 @@
-FerrisWheel
-===========
+# ferris-wheel [![Support this project][donate-now]][paypal-donations]
 
 An application that simulates a ferris wheel.
 
@@ -16,7 +15,6 @@ This application should say:
  - What's the last chair that was emptied?
 
 ## Example
-
 ```sh
 How many chairs? n = 3
 How many persons? p = 2
@@ -28,5 +26,17 @@ Order of persons that left the wheel: 2 1
 Last chair that was emptied: 1
 ```
 
+## How to contribute
+Have an idea? Found a bug? See [how to contribute][contributing].
+
 ## License
-This stuff is licensed with :heart: under [The KINDLY license](/LICENSE).
+
+[MIT][license] © [Ionică Bizău][website]
+
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
+
+[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2014#license-mit
+[website]: http://ionicabizau.net
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md
