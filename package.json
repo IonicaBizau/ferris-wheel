@@ -1,6 +1,6 @@
 {
   "name": "ferris-wheel",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An application that simulates a ferris wheel.",
   "main": "index.js",
   "scripts": {
