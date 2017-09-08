@@ -1,6 +1,6 @@
 {
   "name": "ferris-wheel",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "An application that simulates a ferris wheel.",
   "main": "lib/index.js",
   "scripts": {
@@ -76,6 +76,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
