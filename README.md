@@ -9,8 +9,11 @@
 
 ## Question
 
+
 Having a ferris wheel with `n` chairs (from `1` to `n`), `p` persons come
+
 to buy tickets. Each rotation costs 1 euro and on each ticket is written
+
 how many times is the person allowed to rotate.
 
 
