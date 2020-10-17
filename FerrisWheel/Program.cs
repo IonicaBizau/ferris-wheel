@@ -89,9 +89,19 @@ namespace FerrisWheel
         public static void Main(string[] args)
         {
             // Input data
-            Console.Write("How many chairs? n = ");
-            int n = int.Parse(Console.ReadLine());
-
+            int n = 0;
+            while (n <= 0) // repeat until the right format for 'n' is entered
+            {
+                Console.Write("How many chairs? n = ");
+                try
+                {
+                    n = int.Parse(Console.ReadLine());
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("Invalid format try again");
+                }
+            }
             Console.Write("How many persons? p = ");
             int p = int.Parse(Console.ReadLine());
 
