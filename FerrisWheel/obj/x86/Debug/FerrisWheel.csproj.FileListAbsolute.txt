@@ -1,0 +1,6 @@
+C:\Users\Akl Mounir\Source\Repos\ferris-wheel\FerrisWheel\bin\Debug\FerrisWheel.exe
+C:\Users\Akl Mounir\Source\Repos\ferris-wheel\FerrisWheel\bin\Debug\FerrisWheel.pdb
+C:\Users\Akl Mounir\Source\Repos\ferris-wheel\FerrisWheel\obj\x86\Debug\FerrisWheel.csprojAssemblyReference.cache
+C:\Users\Akl Mounir\Source\Repos\ferris-wheel\FerrisWheel\obj\x86\Debug\FerrisWheel.csproj.CoreCompileInputs.cache
+C:\Users\Akl Mounir\Source\Repos\ferris-wheel\FerrisWheel\obj\x86\Debug\FerrisWheel.exe
+C:\Users\Akl Mounir\Source\Repos\ferris-wheel\FerrisWheel\obj\x86\Debug\FerrisWheel.pdb
