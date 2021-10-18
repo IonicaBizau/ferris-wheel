@@ -89,11 +89,9 @@ namespace FerrisWheel
         public static void Main(string[] args)
         {
             // Input data
-            Console.Write("How many chairs? n = ");
-            int n = int.Parse(Console.ReadLine());
+            int n = ReadInteger("How many chairs? n = ");
 
-            Console.Write("How many persons? p = ");
-            int p = int.Parse(Console.ReadLine());
+            int p = ReadInteger("How many persons? p = ");
 
             // Tickets
             int[] c = new int[p];
@@ -113,8 +111,7 @@ namespace FerrisWheel
             Console.WriteLine("Rotations:");
             for (var i = 0; i < c.Length; ++i)
             {
-                Console.Write("> c({0}) = ", i + 1);
-                c[i] = int.Parse(Console.ReadLine());
+                c[i] = ReadInteger(string.Format("> c({0}) = ", i + 1));
                 sum += c[i];
             }
 
@@ -138,6 +135,18 @@ namespace FerrisWheel
                 Console.Write("{0} ", item + 1);
             }
             Console.WriteLine("\nLast chair that was emptied: {0}", lastChair + 1);
+        }
+
+        private static int ReadInteger(string caption)
+        {
+            Console.Write(caption);
+            int value;
+            while (!int.TryParse(Console.ReadLine(), out value))
+            {
+                Console.WriteLine("Invalid integer. Please specify a valid integer.");
+                Console.Write(caption);
+            }
+            return value;
         }
     }
 }
