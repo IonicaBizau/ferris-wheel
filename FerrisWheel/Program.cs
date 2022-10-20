@@ -22,7 +22,7 @@ namespace FerrisWheel
         /// </summary>
         /// <param name="arr">Arr.</param>
         /// <param name="v">V.</param>
-        static void initArr(int[] arr, int v)
+        static void InitArr(int[] arr, int v)
         {
             for (int i = 0; i < arr.Length; ++i)
             {
@@ -35,7 +35,7 @@ namespace FerrisWheel
         /// </summary>
         /// <returns><c>true</c>, if is empty was wheeled, <c>false</c> otherwise.</returns>
         /// <param name="wheel">Wheel.</param>
-        static bool wheelIsEmpty(int[] wheel)
+        static bool WheelIsEmpty(int[] wheel)
         {
             for (int i = 0; i < wheel.Length; ++i)
             {
@@ -53,7 +53,7 @@ namespace FerrisWheel
         /// <param name="c">C.</param>
         /// <param name="wheel">Wheel.</param>
         /// <param name="pIds">P identifiers.</param>
-        static void nextChair(int[] c, int[] wheel, int[] pIds)
+        static void NextChair(int[] c, int[] wheel, int[] pIds)
         {
             down %= wheel.Length;
 
@@ -103,8 +103,8 @@ namespace FerrisWheel
             int[] pIds = new int[n];
 
             // Initialize wheel and pIds with -1 values
-            initArr(wheel, -1);
-            initArr(pIds, -1);
+            InitArr(wheel, -1);
+            InitArr(pIds, -1);
 
             int sum = 0;
 
@@ -122,9 +122,9 @@ namespace FerrisWheel
             bool started = false;
 
             // Is NOT empty or was not started yet
-            while (cPerson <= c.Length || wheelIsEmpty(wheel) == false || started == false)
+            while (cPerson <= c.Length || WheelIsEmpty(wheel) == false || started == false)
             {
-                nextChair(c, wheel, pIds);
+                NextChair(c, wheel, pIds);
                 started = true;
             }
 
